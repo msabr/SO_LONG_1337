@@ -6,7 +6,7 @@
 /*   By: msabr <msabr@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/06 22:00:38 by msabr             #+#    #+#             */
-/*   Updated: 2025/02/19 10:36:52 by msabr            ###   ########.fr       */
+/*   Updated: 2025/02/19 11:17:16 by msabr            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,8 +17,6 @@
 #  define BUFFER_SIZE 75
 # endif
 
-# include <stdlib.h>
-# include <unistd.h>
 # include "../Libft/libft.h"
 
 char	*get_next_line(int fd);

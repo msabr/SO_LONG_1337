@@ -6,7 +6,7 @@
 #    By: msabr <msabr@student.42.fr>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/02/19 10:39:34 by msabr             #+#    #+#              #
-#    Updated: 2025/02/19 10:39:35 by msabr            ###   ########.fr        #
+#    Updated: 2025/02/19 11:30:18 by msabr            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -35,7 +35,7 @@ HEADERS = mandatory/so_long.h  get_next_line/get_next_line.h Libft/libft.h
 all: $(NAME)
 
 %.o: %.c mandatory/%.c $(HEADERS)
-	@$(CC) $(CFLAGS) -c $< -o $@
+	$(CC) $(CFLAGS) -c $< -o $@
 
 
 $(NAME): $(OBJS) $(LIBFT)
@@ -55,5 +55,4 @@ fclean: clean
 
 re: fclean all
 
-.PHONY: clean
-
+.PHONY: clean fclean re all
