@@ -23,6 +23,6 @@ In this project, you will:
 To compile and run the game, use:  
 
 ```sh
-make
+make```
 ```sh
 ./so_long maps/map1.ber 
