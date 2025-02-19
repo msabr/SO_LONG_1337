@@ -24,4 +24,5 @@ To compile and run the game, use:
 
 ```sh
 make
- ./so_long maps/map1.ber 
+```sh
+./so_long maps/map1.ber 
