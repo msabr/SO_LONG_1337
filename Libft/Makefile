@@ -6,11 +6,15 @@
 #    By: msabr <msabr@student.42.fr>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/19 16:26:22 by msabr             #+#    #+#              #
-#    Updated: 2025/03/03 14:57:52 by msabr            ###   ########.fr        #
+#    Updated: 2025/03/03 15:28:26 by msabr            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = libft.a
+
+CFLAGS = -Wall -Wextra -Werror
+
+CC = cc
 
 SRC = ft_atoi.c ft_bzero.c ft_calloc.c ft_isalnum.c ft_isalpha.c \
 		ft_isascii.c ft_isdigit.c ft_isprint.c ft_memchr.c \
@@ -20,20 +24,14 @@ SRC = ft_atoi.c ft_bzero.c ft_calloc.c ft_isalnum.c ft_isalpha.c \
 		ft_itoa.c ft_putchar_fd.c ft_putendl_fd.c ft_putnbr_fd.c ft_putstr_fd.c \
 		ft_strjoin.c ft_split.c ft_strmapi.c ft_strtrim.c ft_substr.c ft_striteri.c
 
-SRCALL = $(SRC) $(SRCBONUS)	
-
 OBJS =  ${SRC:.c=.o}
-
-CFLAGS = -Wall -Wextra -Werror
-
-CC = cc
 
 HEADER = libft.h
 
 all: $(NAME)
 
 $(NAME): $(OBJS)
-	ar -rc $(NAME) $<
+	ar -rc $(NAME) $^
 
 %.o: %.c $(HEADER)
 	$(CC) $(CFLAGS) -c $< -o $@

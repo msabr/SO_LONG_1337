@@ -6,16 +6,11 @@
 /*   By: msabr <msabr@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/22 09:54:04 by msabr             #+#    #+#             */
-/*   Updated: 2025/03/03 15:04:07 by msabr            ###   ########.fr       */
+/*   Updated: 2025/03/03 15:30:00 by msabr            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-
-
-
-
-
 
 static int	check_overflow(int signe)
 {

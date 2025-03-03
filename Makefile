@@ -6,7 +6,7 @@
 #    By: msabr <msabr@student.42.fr>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/02/19 10:39:34 by msabr             #+#    #+#              #
-#    Updated: 2025/03/03 15:04:47 by msabr            ###   ########.fr        #
+#    Updated: 2025/03/03 15:20:36 by msabr            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -26,7 +26,7 @@ SRC_LIB = Libft/ft_atoi.c Libft/ft_bzero.c Libft/ft_calloc.c Libft/ft_isalnum.c 
 		Libft/ft_strdup.c Libft/ft_strlcat.c Libft/ft_strlcpy.c Libft/ft_strlen.c Libft/ft_strncmp.c \
 		Libft/ft_strnstr.c Libft/ft_strrchr.c Libft/ft_tolower.c Libft/ft_toupper.c \
 		Libft/ft_itoa.c Libft/ft_putchar_fd.c Libft/ft_putendl_fd.c Libft/ft_putnbr_fd.c Libft/ft_putstr_fd.c \
-		Libft/ft_strjoin.c Libft/ft_split.c Libft/ft_strmapi.c Libft/ft_strtrim.c Libft/ft_substr.c Libft/ft_striteri.c\
+		Libft/ft_strjoin.c Libft/ft_split.c Libft/ft_strmapi.c Libft/ft_strtrim.c Libft/ft_substr.c Libft/ft_striteri.c
 
 SRCS =	mandatory/functions_game.c \
 		mandatory/functions_images.c \
@@ -38,7 +38,7 @@ SRCS =	mandatory/functions_game.c \
 		mandatory/functions_parssing.c \
 		mandatory/functions_window.c \
 		mandatory/main.c \
-		get_next_line/get_next_line.c \
+		get_next_line/get_next_line.c 
 		
 OBJS = $(SRCS:.c=.o)
 
