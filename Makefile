@@ -6,7 +6,7 @@
 #    By: msabr <msabr@student.42.fr>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/02/19 10:39:34 by msabr             #+#    #+#              #
-#    Updated: 2025/03/03 15:20:36 by msabr            ###   ########.fr        #
+#    Updated: 2025/03/03 15:43:37 by msabr            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -47,13 +47,13 @@ HEADERS = mandatory/so_long.h get_next_line/get_next_line.h Libft/libft.h
 all: $(NAME)
 
 $(NAME): $(LIBFT) $(OBJS) $(HEADERS)
-	$(CC) $(CFLAGS) $(OBJS) $(LIBFT) $(MLX_FLAGS) -o $(NAME)
+	@$(CC) $(CFLAGS) $(OBJS) $(LIBFT) $(MLX_FLAGS) -o $(NAME)
 	
 %.o: %.c $(HEADERS) $(SRC_LIB)
-	$(CC) $(CFLAGS) -c $< -o $@
+	@$(CC) $(CFLAGS) -c $< -o $@
 
 $(LIBFT): $(SRC_LIB)
-	make -C Libft
+	@make -C Libft
 
 clean:
 	@rm -f $(OBJS)
