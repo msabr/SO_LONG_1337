@@ -25,8 +25,8 @@ In this project, you will:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/LuizGandra/so-long-42.git
-   cd so-long-42
+   git clone https://github.com/msabr/SO_LONG_1337
+   cd SO_LONG_1337
 
 2. Build the mandatory part:
 
