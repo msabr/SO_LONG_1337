@@ -38,16 +38,6 @@ In this project, you will:
    ```bash
    ./so_long maps/<map_name>.ber
 
-4. Build the bonus part (optional):
-
-   ```bash
-   make bonus
-
-5. Run the bonus game:
-
-   ```bash
-   ./so_long_bonus maps/valid_map_bonus.ber
-
 #### Additional commands
 
 - `make clean`: remove object files.
