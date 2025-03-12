@@ -20,7 +20,36 @@ In this project, you will:
 - Handling **event-driven programming** with keyboard inputs.  
 
 ## **Usage**  
-To compile the project, run:  
+### How to Build and Run
 
-```sh
-make
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/LuizGandra/so-long-42.git
+   cd so-long-42
+
+2. Build the mandatory part:
+
+   ```bash
+   make
+
+3. Run the game with a `.ber` map file:
+
+   ```bash
+   ./so_long maps/<map_name>.ber
+
+4. Build the bonus part (optional):
+
+   ```bash
+   make bonus
+
+5. Run the bonus game:
+
+   ```bash
+   ./so_long_bonus maps/valid_map_bonus.ber
+
+#### Additional commands
+
+- `make clean`: remove object files.
+- `make fclean`: remove the program and object files.
+- `make re`: rebuild everything.
