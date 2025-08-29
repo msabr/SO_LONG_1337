@@ -6,7 +6,7 @@
 #    By: msabr <msabr@student.42.fr>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/02/19 10:39:34 by msabr             #+#    #+#              #
-#    Updated: 2025/03/03 15:43:37 by msabr            ###   ########.fr        #
+#    Updated: 2025/08/29 16:58:49 by msabr            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -58,6 +58,7 @@ $(LIBFT): $(SRC_LIB)
 clean:
 	@rm -f $(OBJS)
 	@make clean -C Libft
+	
 fclean: clean
 	@rm -f $(NAME)
 	@make fclean -C Libft
