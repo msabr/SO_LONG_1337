@@ -1,5 +1,9 @@
 # **so_long - 42 Network**  
 
+<div align="center">
+<img src="imgs/so_long.png" with="600"/>
+</div>
+
 ## **Overview**  
 **so_long** is a small **2D game** built using **MiniLibX (mlx)**. This project introduces fundamental concepts of **game development**, such as **textures, sprites, tiles**, and **player movement**. The game is based on a **tile-based map system**, and the objective is to navigate through the map while interacting with various elements.  
 
@@ -37,6 +41,10 @@ In this project, you will:
 
    ```bash
    ./so_long maps/<map_name>.ber
+   
+<div align="center">
+<img src="imgs/game.png" with="600"/>
+</div>
 
 #### Additional commands
 
